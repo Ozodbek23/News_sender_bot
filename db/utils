@@ -1,0 +1,15 @@
+create table news_qalampir(
+    id serial ,
+    title varchar(150) not null ,
+    img_url varchar(50) not null ,
+    created_at varchar(50) not null ,
+    img_name varchar(50)
+);
+
+create table news_daryo(
+    id serial ,
+    title varchar(150) not null ,
+     img_url varchar(50) not null ,
+    created_at varchar(50) not null ,
+    img_name varchar(50)
+);
